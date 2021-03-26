@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using IffyLib.Extensions;
+﻿using IffyLib.Extensions;
 using NUnit.Framework;
 
 namespace IffyLib.Test.Extensions
