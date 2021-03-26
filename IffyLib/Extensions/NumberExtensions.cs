@@ -24,7 +24,7 @@
                 }
             }
 
-            return value == 0;
+            return value == 0; //If the value is zero then that means it's even! If it's below or higher than zero then the number isn't even.
         }
     }
 }
