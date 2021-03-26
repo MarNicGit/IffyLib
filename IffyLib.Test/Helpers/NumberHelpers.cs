@@ -1,9 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using IffyLib.Helpers;
 using NUnit.Framework;
 
 namespace IffyLib.Test.Helpers
@@ -19,7 +15,7 @@ namespace IffyLib.Test.Helpers
 
             for (int i = 0; i < 10000; i++)
             {
-                var randomNumber = IffyLib.Helpers.NumberHelpers.GenerateRandomNumber();
+                int randomNumber = IffyLib.Helpers.NumberHelpers.GenerateRandomNumber();
                 listOfRandomNumbers.Add(randomNumber);
                 Console.WriteLine(randomNumber);
             }
