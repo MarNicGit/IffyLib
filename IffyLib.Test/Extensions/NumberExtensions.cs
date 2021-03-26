@@ -19,7 +19,7 @@ namespace IffyLib.Test.Extensions
         [TestCase(42, ExpectedResult = true, TestName = "Forty-two")]
         [TestCase(99999, ExpectedResult = false, TestName = "Ninety thousand nine hundred ninety nine")]
         [TestCase(int.MaxValue, ExpectedResult = false, TestName = "Really big uneven number!!")]
-        [TestCase(int.MaxValue - 1, ExpectedResult = false, TestName = "Really big even number!!")]
+        [TestCase(int.MaxValue - 1, ExpectedResult = true, TestName = "Really big even number!!")]
         public bool IsEven(int value)
         {
             return value.IsEven();
